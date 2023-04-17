@@ -157,12 +157,25 @@ header i {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+
+.gallery .row {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.gallery img {
+ width: 25%;
 }
 
 .gallery h2 {
     color: rgb(225, 239, 230);
+    padding-top: 3%;
 }
 
 /* about us section */
