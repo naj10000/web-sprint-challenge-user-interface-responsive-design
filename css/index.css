@@ -157,6 +157,12 @@ header i {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery h2 {
+    color: rgb(225, 239, 230);
 }
 
 /* about us section */
