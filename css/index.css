@@ -99,6 +99,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -112,7 +113,7 @@ header h1 a {
     color: inherit
 }
 
-header div {
+header .mainDiv {
     text-align: center;
     color: white;
     text-decoration: none;
@@ -122,22 +123,30 @@ header div {
     
 }
 
-header div nav {
+header  nav {
     width: 100%;
     justify-content: space-around;
 }
 
-header div nav a {
+header nav a {
     color: inherit;
     margin: 7% 7% 1%;
     font-size: 2.5rem;
 }
 
-header i {
-    width: 5%;
-    margin: 2%;
+ .social {
+    display: flex;
     justify-content: center;
+   
+    
+} 
+
+.social a  {
+    margin: 2%
 }
+
+
+
 
 /* spacers */
 .spacer {
@@ -270,6 +279,10 @@ footer {
 footer a {
     text-decoration: none;
     color: inherit;
+}
+
+footer p {
+    font-size: 1.5rem;
 }
 
 /* mobile media query */
