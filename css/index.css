@@ -271,7 +271,6 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
     display: flex;
-    flex-direction: row;
     background-color: rgb(0, 4, 17);
     color: rgb(225, 239, 230);
 }
@@ -279,11 +278,45 @@ footer {
 footer a {
     text-decoration: none;
     color: inherit;
+    margin-right: 5%;
 }
 
 footer p {
     font-size: 1.5rem;
 }
+
+footer nav {
+    display: flex;
+    width: 100%;
+}
+
+.footLinks {
+    width: 70%;
+    justify-content: space-evenly;
+    
+}
+
+
+.signUp {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+nav p {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* input {
+    width: 50%;
+    height: 25%;
+    
+} */
+
+
 
 /* mobile media query */
 @media (max-width: 428px) {
