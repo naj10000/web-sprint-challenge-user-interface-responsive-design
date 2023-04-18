@@ -176,6 +176,10 @@ header nav a {
     color: rgb(225, 239, 230);
 }
 
+menu h1 {
+    justify-content: center;
+}
+
 /* footer section */
 footer {
     width: 100%;
