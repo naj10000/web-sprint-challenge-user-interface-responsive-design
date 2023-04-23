@@ -177,6 +177,29 @@ header nav a {
     color: rgb(225, 239, 230);
 }
 
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0% 5%;
+    background-color: rgb(0, 4, 17, .8);
+}
+
+.menu-section {
+    width: 30%;
+    text-align: center;
+    margin: 2.5% 10%;
+}
+
+.menu-section h3 {
+    margin: 5% 0;
+    text-align: left;
+}
+
+.menu-item {
+    text-align: left;
+}
 
 
 /* footer section */
